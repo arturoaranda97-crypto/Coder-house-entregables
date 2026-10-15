@@ -2,8 +2,6 @@
 --Autor: Arturo Aranda
 --Fecha: 11/10/2026
 
-Select * from ventas
-
 -- 1.Resumen ejecutivo mensual
 Select
 		MONTH(fecha_venta) AS mes,
